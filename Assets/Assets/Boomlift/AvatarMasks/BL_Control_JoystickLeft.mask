@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BL_Control_JoystickLeft
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Boom_Lift_LOD0
+    m_Weight: 0
+  - m_Path: Boom_Lift_LOD1
+    m_Weight: 0
+  - m_Path: Boom_Lift_LOD2
+    m_Weight: 0
+  - m_Path: Boom_Lift_LOD3
+    m_Weight: 0
+  - m_Path: ROOT_BONE
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Emergency_STOP
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Emergency_STOP/Bone057
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Joystick_LEFT
+    m_Weight: 1
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Joystick_LEFT/Bone055
+    m_Weight: 1
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Joystick_Right
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Joystick_Right/Joystick_Right_TOGGLE
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmExtension
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmExtension/Bone061
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmPitch
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmPitch/Bone067
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmYaw
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_ArmYaw/Bone065
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_PlatformPitch
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_PlatformPitch/Bone063
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_PlatformYAW
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/Lever_PlatformYAW/Bone069
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/SpeedDial
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Controlbox/Bone073/SpeedDial/Bone075
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Platform_DOOR
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Platform_DOOR/Bone051
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Platform_DOOR/Bone051/Platform_DoorHandle
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_Axle_Pitch/Bone047/Platform_Axle_YAW/Bone049/Platform_DOOR/Bone051/Platform_DoorHandle/Bone053
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_PistonCover
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_PistonCover/Bone045
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_PistonCover/Bone045/Platform_Piston_Dummy
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/Arm_Extension_1/Arm_Extension_2B/Arm_Extension_2/Platform_PistonCover/Bone045/Platform_Piston_Dummy/Platform_Piston
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/CableCover_1
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/CableCover_1/CableCover_2
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/CableCover_1/CableCover_2/CableCover_3
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/CableCover_1/CableCover_2/CableCover_3/CableCover_4
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/ARM_Main/Bone019/CableCover_1/CableCover_2/CableCover_3/CableCover_4/Bone011
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Arm_PistonCover
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Arm_PistonCover/Bone002
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Arm_PistonCover/Bone002/Arm_Piston
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Arm_PistonCover/Bone002/Arm_Piston/Bone006
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Pivot_2
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A1/Pivot_A1_END/Pivot_2/Bone017
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A2
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/BaseTurret/Bone021/Pivot_A2/Bone013
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/FL_Wheel
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/FL_Wheel/Bone025
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/FR_Wheel
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/FR_Wheel/Bone027
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_Axle
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_Axle/Bone035
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_Axle/Bone035/RL_Wheel
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_Axle/Bone035/RL_Wheel/Bone031
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_PistonCase
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_PistonCase/Bone037
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_PistonCase/Bone037/RL_Piston
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RL_PistonCase/Bone037/RL_Piston/Bone039
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_Axle
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_Axle/Bone033
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_Axle/Bone033/RR_Wheel
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_Axle/Bone033/RR_Wheel/Bone029
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_PistonCase
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_PistonCase/Bone041
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_PistonCase/Bone041/RR_Piston
+    m_Weight: 0
+  - m_Path: ROOT_BONE/Bone023/RR_PistonCase/Bone041/RR_Piston/Bone043
+    m_Weight: 0
