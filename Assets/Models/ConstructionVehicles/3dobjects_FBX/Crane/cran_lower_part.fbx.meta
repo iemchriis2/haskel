@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: f6eaa511ac5908f44b0667409bc3c73b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: body_main
+    100002: Camera
+    100004: //RootNode
+    100006: lenkrad
+    100008: radaufhaengungen
+    100010: reifen_links
+    100012: reifen_rechts
+    100014: standbeine_links_part1
+    100016: standbeine_links_part2
+    100018: standbeine_links_part3
+    100020: standbeine_rechts_part1
+    100022: standbeine_rechts_part2
+    100024: standbeine_rechts_part3
+    400000: body_main
+    400002: Camera
+    400004: //RootNode
+    400006: lenkrad
+    400008: radaufhaengungen
+    400010: reifen_links
+    400012: reifen_rechts
+    400014: standbeine_links_part1
+    400016: standbeine_links_part2
+    400018: standbeine_links_part3
+    400020: standbeine_rechts_part1
+    400022: standbeine_rechts_part2
+    400024: standbeine_rechts_part3
+    2300000: body_main
+    2300002: lenkrad
+    2300004: radaufhaengungen
+    2300006: reifen_links
+    2300008: reifen_rechts
+    2300010: standbeine_links_part1
+    2300012: standbeine_links_part2
+    2300014: standbeine_links_part3
+    2300016: standbeine_rechts_part1
+    2300018: standbeine_rechts_part2
+    2300020: standbeine_rechts_part3
+    3300000: body_main
+    3300002: lenkrad
+    3300004: radaufhaengungen
+    3300006: reifen_links
+    3300008: reifen_rechts
+    3300010: standbeine_links_part1
+    3300012: standbeine_links_part2
+    3300014: standbeine_links_part3
+    3300016: standbeine_rechts_part1
+    3300018: standbeine_rechts_part2
+    3300020: standbeine_rechts_part3
+    4300000: lenkrad
+    4300002: body_main
+    4300004: reifen_rechts
+    4300006: radaufhaengungen
+    4300008: standbeine_links_part1
+    4300010: standbeine_rechts_part3
+    4300012: standbeine_links_part3
+    4300014: standbeine_links_part2
+    4300016: standbeine_rechts_part1
+    4300018: standbeine_rechts_part2
+    4300020: reifen_links
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker_links
+    second: {fileID: 2100000, guid: ce7ea60e45565934d97f8b05c370c290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker_rechts
+    second: {fileID: 2100000, guid: 71d6ef738e8d7fc4096734037038a923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bremslicht
+    second: {fileID: 2100000, guid: 417f6ff4d40336b4582f175d0f45499f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fensterscheiben
+    second: {fileID: 2100000, guid: 53a5b577dc64fc245b8a8bfae14783ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontscheinwerfer
+    second: {fileID: 2100000, guid: f0a824066b6b0424bab73954ada4cb00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff
+    second: {fileID: 2100000, guid: 9decf6d36ef94e7479b9a07a96d603cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 211aca5bb67bcfb4d8bc14415274eaee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 29a86e8cd35b78744ae51f21d1cc91ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal lack
+    second: {fileID: 2100000, guid: 49784271fbf2be742b4398203d64ce1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reifen
+    second: {fileID: 2100000, guid: 0174fd38680566946b9eaf24ae9cac75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reifen_felge
+    second: {fileID: 2100000, guid: 98eb910bdf36ce5489c4728d4595b83d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rueckfahrscheinwerfer
+    second: {fileID: 2100000, guid: ef5dc9ee37602de43b0782d816b7e15d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rundumleuchte_links
+    second: {fileID: 2100000, guid: 90e552e2c40b5d94e81586cd6300e3d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rundumleuchte_rechts
+    second: {fileID: 2100000, guid: a8c90d5f3e0700a4f8886d5cf728a500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spiegel
+    second: {fileID: 2100000, guid: bfb5a6cbf550d33408863299eb9258bb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 28
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

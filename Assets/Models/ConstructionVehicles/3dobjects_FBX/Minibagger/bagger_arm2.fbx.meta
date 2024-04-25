@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: 4f3455f6a7f0b8c42b9417e6de40ba9e
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: drehachse_arm2_zylinder
+    100002: bagger_arm2 [arm2]
+    100004: bagger_arm2 [arm2_zylinder]
+    100006: Camera
+    100008: Light
+    100010: master_null
+    100012: drehachse_arm2
+    100014: //RootNode
+    100016: drehachse_arm2_zylinder_teleskop
+    100018: bagger_arm2 [arm2_zylinder_teleskop]
+    400000: drehachse_arm2_zylinder
+    400002: bagger_arm2 [arm2]
+    400004: bagger_arm2 [arm2_zylinder]
+    400006: Camera
+    400008: Light
+    400010: master_null
+    400012: drehachse_arm2
+    400014: //RootNode
+    400016: drehachse_arm2_zylinder_teleskop
+    400018: bagger_arm2 [arm2_zylinder_teleskop]
+    2300000: bagger_arm2 [arm2]
+    2300002: bagger_arm2 [arm2_zylinder]
+    2300004: bagger_arm2 [arm2_zylinder_teleskop]
+    3300000: bagger_arm2 [arm2]
+    3300002: bagger_arm2 [arm2_zylinder]
+    3300004: bagger_arm2 [arm2_zylinder_teleskop]
+    4300000: bagger_arm2 [arm2]
+    4300002: bagger_arm2 [arm2_zylinder_teleskop]
+    4300004: bagger_arm2 [arm2_zylinder]
+    7400000: arm2_anim
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

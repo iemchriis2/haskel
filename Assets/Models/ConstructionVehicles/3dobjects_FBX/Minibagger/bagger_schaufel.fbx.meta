@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: e7d343408f522f04981a4a6f3a361593
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: drehachse_hilfsarm2
+    100004: bagger_schaufel [hilfsarm_oben]
+    100006: bagger_schaufel [schaufel]
+    100008: bagger_schaufel [zylinder]
+    100010: drehachse_hilfsarm1
+    100012: drehachse_schaufel_zylinder
+    100014: drehachse_schaufel
+    100016: Light
+    100018: //RootNode
+    100020: master_null
+    100022: bagger_schaufel [zylinder_teleskop]
+    100024: drehachse_schaufel_zylinder_teleskop
+    100026: bagger_schaufel [hilfsarm_unten]
+    400000: Camera
+    400002: drehachse_hilfsarm2
+    400004: bagger_schaufel [hilfsarm_oben]
+    400006: bagger_schaufel [schaufel]
+    400008: bagger_schaufel [zylinder]
+    400010: drehachse_hilfsarm1
+    400012: drehachse_schaufel_zylinder
+    400014: drehachse_schaufel
+    400016: Light
+    400018: //RootNode
+    400020: master_null
+    400022: bagger_schaufel [zylinder_teleskop]
+    400024: drehachse_schaufel_zylinder_teleskop
+    400026: bagger_schaufel [hilfsarm_unten]
+    2300000: bagger_schaufel [hilfsarm_oben]
+    2300002: bagger_schaufel [schaufel]
+    2300004: bagger_schaufel [zylinder]
+    2300006: bagger_schaufel [zylinder_teleskop]
+    2300008: bagger_schaufel [hilfsarm_unten]
+    3300000: bagger_schaufel [hilfsarm_oben]
+    3300002: bagger_schaufel [schaufel]
+    3300004: bagger_schaufel [zylinder]
+    3300006: bagger_schaufel [zylinder_teleskop]
+    3300008: bagger_schaufel [hilfsarm_unten]
+    4300000: bagger_schaufel [schaufel]
+    4300002: bagger_schaufel [hilfsarm_unten]
+    4300004: bagger_schaufel [hilfsarm_oben]
+    4300006: bagger_schaufel [zylinder_teleskop]
+    4300008: bagger_schaufel [zylinder]
+    7400000: anim_schaufel
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

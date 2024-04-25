@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: b78d5fc4b02e0f941a22860818d74aab
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: kaltfraese_for_export [Lenkstange vorne]
+    100002: kaltfraese_for_export [Lenkstange hinten]
+    100004: kaltfraese_for_export [Kette vorne links]
+    100006: kaltfraese_for_export [Kette vorne rechts]
+    100008: kaltfraese_for_export [Kette hinten links]
+    100010: kaltfraese_for_export [Kette hinten rechts]
+    100012: kaltfraese_for_export [body]
+    100014: //RootNode
+    100016: drehachse_hinten_rechts
+    100018: null_lenkstange_vorne
+    100020: drehachse_vorne_rechts
+    100022: drehachse_hinten_links
+    100024: drehachse_vorne_links
+    100026: null_lenkstange_hinten
+    100028: Camera
+    100030: Light
+    100032: master_null
+    400000: kaltfraese_for_export [Lenkstange vorne]
+    400002: kaltfraese_for_export [Lenkstange hinten]
+    400004: kaltfraese_for_export [Kette vorne links]
+    400006: kaltfraese_for_export [Kette vorne rechts]
+    400008: kaltfraese_for_export [Kette hinten links]
+    400010: kaltfraese_for_export [Kette hinten rechts]
+    400012: kaltfraese_for_export [body]
+    400014: //RootNode
+    400016: drehachse_hinten_rechts
+    400018: null_lenkstange_vorne
+    400020: drehachse_vorne_rechts
+    400022: drehachse_hinten_links
+    400024: drehachse_vorne_links
+    400026: null_lenkstange_hinten
+    400028: Camera
+    400030: Light
+    400032: master_null
+    2300000: kaltfraese_for_export [Lenkstange vorne]
+    2300002: kaltfraese_for_export [Lenkstange hinten]
+    2300004: kaltfraese_for_export [Kette vorne links]
+    2300006: kaltfraese_for_export [Kette vorne rechts]
+    2300008: kaltfraese_for_export [Kette hinten links]
+    2300010: kaltfraese_for_export [Kette hinten rechts]
+    2300012: kaltfraese_for_export [body]
+    3300000: kaltfraese_for_export [Lenkstange vorne]
+    3300002: kaltfraese_for_export [Lenkstange hinten]
+    3300004: kaltfraese_for_export [Kette vorne links]
+    3300006: kaltfraese_for_export [Kette vorne rechts]
+    3300008: kaltfraese_for_export [Kette hinten links]
+    3300010: kaltfraese_for_export [Kette hinten rechts]
+    3300012: kaltfraese_for_export [body]
+    4300000: kaltfraese_for_export [body]
+    4300002: kaltfraese_for_export [Kette vorne links]
+    4300004: kaltfraese_for_export [Kette vorne rechts]
+    4300006: kaltfraese_for_export [Kette hinten links]
+    4300008: kaltfraese_for_export [Kette hinten rechts]
+    4300010: kaltfraese_for_export [Lenkstange vorne]
+    4300012: kaltfraese_for_export [Lenkstange hinten]
+    7400000: anim_ketten
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

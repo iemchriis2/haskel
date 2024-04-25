@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 6c12d0c392883744788acb652e91f2d0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: arm_drehgelenk
+    100006: arm_kopf
+    100008: betonfuellung
+    100010: body_main
+    100012: Camera
+    100014: //RootNode
+    100016: reifen_hinten1_links
+    100018: reifen_hinten1_rechts
+    100020: reifen_hinten2_links
+    100022: reifen_hinten2_rechts
+    100024: reifen_vorne_links
+    100026: reifen_vorne_rechts
+    100028: trommel
+    400000: arm1
+    400002: arm2
+    400004: arm_drehgelenk
+    400006: arm_kopf
+    400008: betonfuellung
+    400010: body_main
+    400012: Camera
+    400014: //RootNode
+    400016: reifen_hinten1_links
+    400018: reifen_hinten1_rechts
+    400020: reifen_hinten2_links
+    400022: reifen_hinten2_rechts
+    400024: reifen_vorne_links
+    400026: reifen_vorne_rechts
+    400028: trommel
+    2300000: arm1
+    2300002: arm2
+    2300004: arm_drehgelenk
+    2300006: arm_kopf
+    2300008: betonfuellung
+    2300010: body_main
+    2300012: reifen_hinten1_links
+    2300014: reifen_hinten1_rechts
+    2300016: reifen_hinten2_links
+    2300018: reifen_hinten2_rechts
+    2300020: reifen_vorne_links
+    2300022: reifen_vorne_rechts
+    2300024: trommel
+    3300000: arm1
+    3300002: arm2
+    3300004: arm_drehgelenk
+    3300006: arm_kopf
+    3300008: betonfuellung
+    3300010: body_main
+    3300012: reifen_hinten1_links
+    3300014: reifen_hinten1_rechts
+    3300016: reifen_hinten2_links
+    3300018: reifen_hinten2_rechts
+    3300020: reifen_vorne_links
+    3300022: reifen_vorne_rechts
+    3300024: trommel
+    4300000: reifen_vorne_rechts
+    4300002: betonfuellung
+    4300004: reifen_vorne_links
+    4300006: arm1
+    4300008: arm2
+    4300010: trommel
+    4300012: body_main
+    4300014: arm_kopf
+    4300016: arm_drehgelenk
+    4300018: reifen_hinten1_links
+    4300020: reifen_hinten1_rechts
+    4300022: reifen_hinten2_links
+    4300024: reifen_hinten2_rechts
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beton
+    second: {fileID: 2100000, guid: eb59aceeb29816c4193de156e3c75dd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker links
+    second: {fileID: 2100000, guid: 86d3c78c3a9e01149a25b016fd880fef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker rechts
+    second: {fileID: 2100000, guid: 2727eddf296e99f489172b9272770511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bremslicht
+    second: {fileID: 2100000, guid: d23c1c7eacc18fc48abb22a9ebe58e08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fensterscheiben
+    second: {fileID: 2100000, guid: 92c215376ef6e7c499b2f848eb03e14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontscheinwerfer
+    second: {fileID: 2100000, guid: 0b4468837fea63247af9549e6ee47721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff
+    second: {fileID: 2100000, guid: 00345ebeb7fe887418ce0f4f207eadca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff schwarz
+    second: {fileID: 2100000, guid: 4191c8a89bceb9e479b2eccd423d716d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: e94fab49409f34d49a0dad3b3003f5af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal lack
+    second: {fileID: 2100000, guid: a0d639d959a3a1543a3cb3b71a4b19ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal unterbau
+    second: {fileID: 2100000, guid: 232f348dfa7a5f24ca1ff678c558940a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pkw felge
+    second: {fileID: 2100000, guid: b7816e59f38c3d44c937811a44886e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pkw reifen
+    second: {fileID: 2100000, guid: 2534426664890c243a222d711243113c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rueckfahrscheinwerfer
+    second: {fileID: 2100000, guid: 8cbf79e9d18a21546942fd7e9e52e6fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruecklicht
+    second: {fileID: 2100000, guid: fbd01f2d578e9994380108ae41aef19d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spiegel
+    second: {fileID: 2100000, guid: 2eb2908be9cd21f4480ced078bf7f2a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trommel
+    second: {fileID: 2100000, guid: c47f573f7da395e4da28a2b6cf22c81b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 29
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

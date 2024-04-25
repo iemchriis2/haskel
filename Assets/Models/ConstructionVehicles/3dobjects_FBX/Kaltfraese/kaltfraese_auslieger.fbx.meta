@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 8c8e0b7e58be5ad4e917f78964eb8bf9
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: kaltfraese_auslieger_for_export [auslieger]
+    100002: drehachse_zylinder1
+    100004: drehachse_zylinder2
+    100006: //RootNode
+    100008: drehachse_zylinder1_teleskop
+    100010: drehachse_auslieger
+    100012: drehachse_zylinder2_teleskop
+    100014: master_null
+    100016: kaltfraese_auslieger_for_export [zylinder seite1]
+    100018: kaltfraese_auslieger_for_export [zylinder seite2]
+    100020: kaltfraese_auslieger_for_export [zylinder teleskop seite1]
+    100022: kaltfraese_auslieger_for_export [zylinder teleskop seite2]
+    100024: Light
+    100026: Camera
+    400000: kaltfraese_auslieger_for_export [auslieger]
+    400002: drehachse_zylinder1
+    400004: drehachse_zylinder2
+    400006: //RootNode
+    400008: drehachse_zylinder1_teleskop
+    400010: drehachse_auslieger
+    400012: drehachse_zylinder2_teleskop
+    400014: master_null
+    400016: kaltfraese_auslieger_for_export [zylinder seite1]
+    400018: kaltfraese_auslieger_for_export [zylinder seite2]
+    400020: kaltfraese_auslieger_for_export [zylinder teleskop seite1]
+    400022: kaltfraese_auslieger_for_export [zylinder teleskop seite2]
+    400024: Light
+    400026: Camera
+    2300000: kaltfraese_auslieger_for_export [auslieger]
+    2300002: kaltfraese_auslieger_for_export [zylinder seite1]
+    2300004: kaltfraese_auslieger_for_export [zylinder seite2]
+    2300006: kaltfraese_auslieger_for_export [zylinder teleskop seite1]
+    2300008: kaltfraese_auslieger_for_export [zylinder teleskop seite2]
+    3300000: kaltfraese_auslieger_for_export [auslieger]
+    3300002: kaltfraese_auslieger_for_export [zylinder seite1]
+    3300004: kaltfraese_auslieger_for_export [zylinder seite2]
+    3300006: kaltfraese_auslieger_for_export [zylinder teleskop seite1]
+    3300008: kaltfraese_auslieger_for_export [zylinder teleskop seite2]
+    4300000: kaltfraese_auslieger_for_export [auslieger]
+    4300002: kaltfraese_auslieger_for_export [zylinder teleskop seite1]
+    4300004: kaltfraese_auslieger_for_export [zylinder teleskop seite2]
+    4300006: kaltfraese_auslieger_for_export [zylinder seite1]
+    4300008: kaltfraese_auslieger_for_export [zylinder seite2]
+    7400000: anim_auslieger
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

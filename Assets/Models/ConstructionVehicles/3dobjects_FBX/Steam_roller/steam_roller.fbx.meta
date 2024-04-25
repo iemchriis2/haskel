@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 68636ff7f09a9904b97989e3f71561dc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Mesh
+    100004: Mesh 1
+    100006: Mesh 2
+    100008: Mesh 3
+    100010: //RootNode
+    400000: Camera
+    400002: Mesh
+    400004: Mesh 1
+    400006: Mesh 2
+    400008: Mesh 3
+    400010: //RootNode
+    2300000: Mesh
+    2300002: Mesh 1
+    2300004: Mesh 2
+    2300006: Mesh 3
+    3300000: Mesh
+    3300002: Mesh 1
+    3300004: Mesh 2
+    3300006: Mesh 3
+    4300000: dampfwalze_for_export [body hinten]
+    4300002: dampfwalze_for_export [body vorne]
+    4300004: dampfwalze_for_export [walze vorne]
+    4300006: dampfwalze_for_export [walze hinten]
+    4300008: Mesh
+    4300010: Mesh
+    4300012: Mesh
+    4300014: Mesh
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker_links
+    second: {fileID: 2100000, guid: 7b44718a4a7acce4b81a631873e81660, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinker_rechts
+    second: {fileID: 2100000, guid: 1f568fa16c30b7945aa18af6b078c697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bremslicht
+    second: {fileID: 2100000, guid: 8db55e4ca1f115a4b89beb431af16182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fensterscheiben
+    second: {fileID: 2100000, guid: fab5b2ea867430b4d8fbed0380c37a88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontscheinwerfer
+    second: {fileID: 2100000, guid: 410d4142e76ea7d4083174926494224b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kunststoff
+    second: {fileID: 2100000, guid: b20fa2bb21b8bf442866216930d1c3e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal chromed
+    second: {fileID: 2100000, guid: 634b97d1c74d9b448983bed7c65941e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal dark
+    second: {fileID: 2100000, guid: 328ee592b61a5f34c9e9b0c102747947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal lack
+    second: {fileID: 2100000, guid: b2085997a7f4eac4ab19978e4eb3a52a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spiegel
+    second: {fileID: 2100000, guid: 4000e02f14ac9c648965fbd95da85346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walze metal lack
+    second: {fileID: 2100000, guid: a2aa127925b8ece4c90d2e46357f8cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walze metal walze
+    second: {fileID: 2100000, guid: bd88fc30a72f813408124e645bfb63e5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
