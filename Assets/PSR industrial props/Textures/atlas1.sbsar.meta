@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 476597b2d5c298e41a3d9a2781f10331
+timeCreated: 1514667040
+licenseType: Store
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: stuff1
+    prototypeName: stuff1
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: paintcol1
+      value:
+        scalar[0]: 0.517241
+        scalar[1]: 0.0314843
+        scalar[2]: 0.0314843
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: paincol2
+      value:
+        scalar[0]: 0.0337831
+        scalar[1]: 0.234869
+        scalar[2]: 0.298851
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: wirecol1
+      value:
+        scalar[0]: 0.0631684
+        scalar[1]: 0.146437
+        scalar[2]: 0.183908
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: wirecol2
+      value:
+        scalar[0]: 0.344828
+        scalar[1]: 0.017991
+        scalar[2]: 0.017991
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: wirecol3
+      value:
+        scalar[0]: 0.0804598
+        scalar[1]: 0.0761533
+        scalar[2]: 0.0731134
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: plastic
+      value:
+        scalar[0]: 0.689662
+        scalar[1]: 0.6636
+        scalar[2]: 0.635676
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: ao
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs:
+      - _BumpMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailAlbedoMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailMask:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailNormalMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _EmissionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MainTex:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MetallicGlossMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _OcclusionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _ParallaxMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - _BumpScale: 0.44
+      - _Cutoff: 0.5
+      - _DetailNormalMapScale: 1
+      - _DstBlend: 0
+      - _GlossMapScale: 1
+      - _Glossiness: 0.5
+      - _GlossyReflections: 1
+      - _Metallic: 0
+      - _Mode: 0
+      - _OcclusionStrength: 1
+      - _Parallax: 0.02
+      - _SmoothnessTextureChannel: 0
+      - _SpecularHighlights: 1
+      - _SrcBlend: 1
+      - _UVSec: 0
+      - _ZWrite: 1
+      colors:
+      - _Color: {r: 1, g: 1, b: 1, a: 1}
+      - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    textureParameters:
+    - name: stuff1_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stuff1_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stuff1_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stuff1_ao
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stuff1_emiss
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 110761880
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 110761882
+    - shaderProp: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 55840309
+    - shaderProp: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 110761884
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 55840297
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
