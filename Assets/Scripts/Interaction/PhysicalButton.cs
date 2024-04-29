@@ -4,7 +4,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine.UI;
 using UnityEngine;
 
 
@@ -31,6 +31,7 @@ public class PhysicalButton : MonoBehaviour {
 	private bool _isMainTriggerActivated, _isCooldownTriggerActivated;
 	private bool _isDown, _isCooldownActive;
 
+	public RectTransform RectTransform { get; private set; }
 	#endregion
 
 
@@ -51,6 +52,7 @@ public class PhysicalButton : MonoBehaviour {
 
 
 	private void Start() {
+		RectTransform = transform as RectTransform;
 		_mainTrigger.InteractionStartEvent.Subscribe(this, EV_MainTriggerStart);
 		_mainTrigger.InteractionEndEvent.Subscribe(this, EV_MainTriggerEnd);
 		if (_cooldownTrigger != null) {
@@ -71,7 +73,7 @@ public class PhysicalButton : MonoBehaviour {
 
 	#region Event Callbacks
 
-	private void EV_MainTriggerStart() {
+	public void EV_MainTriggerStart() {
 		if (_isCooldownActive)
 			return;
 		
@@ -79,6 +81,11 @@ public class PhysicalButton : MonoBehaviour {
 			_isCooldownActive = true;
 		ButtonDownEvent.Invoke();
 	}
+
+	public void StopHover()
+    {
+		GetComponent<FancyButton>().EV_Up();
+    }
 
 
 

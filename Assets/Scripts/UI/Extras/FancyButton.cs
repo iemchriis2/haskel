@@ -195,7 +195,7 @@ public class FancyButton : MonoBehaviour {
 
 
 
-	private void EV_Up() {
+	public void EV_Up() {
 		StateChangeCalculations();
 		_isDown = false;
 		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);

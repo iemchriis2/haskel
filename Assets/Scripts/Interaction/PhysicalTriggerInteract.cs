@@ -101,6 +101,12 @@ public class PhysicalTriggerInteract : MonoBehaviour {
 			Action(i);
 	}
 
+	public void Interact()
+    {
+		_isInteracting = false;
+		InteractionEndEvent.Invoke();
+
+	}
 
 
 	private void OnTriggerExit(Collider collider) {

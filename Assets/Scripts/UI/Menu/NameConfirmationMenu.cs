@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
-
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -14,7 +14,7 @@ using TMPro;
 /// <summary>
 /// This is the confirmation menu for when the player presses 'done' when entering a name.
 /// </summary>
-public class NameConfirmationMenu : MonoBehaviour {
+public class NameConfirmationMenu : InteractionBase {
 
 	#region Static
 
@@ -22,11 +22,10 @@ public class NameConfirmationMenu : MonoBehaviour {
 
 	//Singleton Variable
 	public static NameConfirmationMenu Singeton { get; private set; }
-	[SerializeField]
-	private RectTransform _cursor;
 	//Event Variables
 	public static EasyEvent RequestEvent = new EasyEvent("ScoreDoneMenu Request");
-
+	private RectTransform _rectTransform;
+	private Vector2 _halfBounds;
 	#endregion
 
 
@@ -80,19 +79,64 @@ public class NameConfirmationMenu : MonoBehaviour {
 		_button.ButtonUpEvent.Subscribe(this, EV_Button);
 		_buttonNo.ButtonUpEvent.Subscribe(this, EV_Button_No);
 		_buttonYes.ButtonUpEvent.Subscribe(this, EV_Button_Yes);
+		PlayerInput.InteractInputUpEvent.Subscribe(this, EV_InteractDown);
 		KeyboardMenu.Enable(true);
 		Enable(null);
+		_rectTransform = transform as RectTransform;
+		_halfBounds = new Vector2(_rectTransform.sizeDelta.x / 2, _rectTransform.sizeDelta.y / -2);
+	
 	}
 
 
 
-	private void Update() {
-		
+	private void Update() 
+	{
+		CalculateHoverButtons();
+	}
+
+	private void CalculateHoverButtons()
+	{
+		//If cursor is off menu, end current hover (if it exists), return
+		if (!_cursor.gameObject.activeSelf)
+		{
+			StopCurrentHover();
+			return;
+		}
+
+		//Check if we are hovering over a button
+		if (CalculateHoverButton(_button))
+			return;
+		if (CalculateHoverButton(_buttonNo))
+			return;
+	
+		if (CalculateHoverButton(_buttonYes))
+			return;
+		/*
+		if (CalculateHoverButton(_spaceButton))
+			return;
+		if (CalculateHoverButton(_backspaceButton))
+			return;
+		*/
+		//Stop current hover because getting this far means we are not hovering a button
+		StopCurrentHover();
 	}
 
 	#endregion
 
 
+
+
+
+
+	private void EV_InteractDown(bool isLeftHand)
+	{
+		Debug.Log("Button INterat");
+		currentPhysicalButton.MainTrigger.Interact();
+		if ((isLeftHand && !Player.Singleton.IsLeftHanded) || (!isLeftHand && Player.Singleton.IsLeftHanded))
+			return;
+
+		//currentPhysicalButton.MainTrigger.Interact();
+	}
 
 	#region Render
 
@@ -156,7 +200,6 @@ public class NameConfirmationMenu : MonoBehaviour {
 	private void EV_Button() {
 		if (!gameObject.activeSelf)
 			return;
-		Debug.Log("Button");
 		Disable();
 		KeyboardMenu.Enable(false);
 		//ScoreDoneMenu.Enable();
@@ -167,7 +210,6 @@ public class NameConfirmationMenu : MonoBehaviour {
 	private void EV_Button_No() {
 		if (!gameObject.activeSelf)
 			return;
-			
 		Disable();
 		KeyboardMenu.Enable(false);
 		//ScoreDoneMenu.Enable();
