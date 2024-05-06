@@ -68,7 +68,7 @@ public class KeyboardMenu : Menu {
 	[SerializeField]
 	private List<RaycastButton> _generalButtons;
 	[SerializeField]
-	private TMP_InputField _inputField;
+	private InputField _inputField;
 	[SerializeField]
 	private Image _shiftArrowImage;
 	[SerializeField]
@@ -103,13 +103,26 @@ public class KeyboardMenu : Menu {
 
 		//EndMenu.GameEndEvent.Subscribe(this, EV_GameEnd);
 		//MainMenu.GameStartEvent.Subscribe(this, EV_GameStart);
-		PlayerInput.InteractInputDownEvent.Subscribe(this, EV_InteractDown);
+		//PlayerInput.InteractInputDownEvent.Subscribe(this, EV_InteractDown);
 
 		foreach (RaycastButton b in _generalButtons)
+		{
 			b.SetState(_stateIndex, _isShifted);
+			b.AddEventTriggers();
+		}
+		SetKeyboardTriggers();
 
-		StartCoroutine(StartPause());
+        StartCoroutine(StartPause());
 	}
+
+	void SetKeyboardTriggers()
+	{
+		_shiftButton.AddEventTriggers();
+	    _stateButton.AddEventTriggers();
+	  	_enterButton.AddEventTriggers();
+		_spaceButton.AddEventTriggers(); 
+		_backspaceButton.AddEventTriggers(); 
+    }
 
 
 
@@ -144,7 +157,7 @@ public class KeyboardMenu : Menu {
 		// 	StopCurrentHover();
 		// }
 
-		CalculateHoverButtons();
+		//CalculateHoverButtons();
 	}
 
 	#endregion
@@ -209,8 +222,25 @@ public class KeyboardMenu : Menu {
 	}
 
 
+	public void SelectHoverButton(RaycastButton button)
+	{
+        StopCurrentHover();
 
-	private bool CalculateHoverButton(RaycastButton button) {
+        _currentHoveredButton = button;
+        _currentHoveredButton.SetHover(true);
+    }
+
+    public void RemoveHoverButton()
+    {
+        StopCurrentHover();
+        _currentHoveredButton.SetHover(false);
+        _currentHoveredButton = null;
+
+    }
+
+
+
+    private bool CalculateHoverButton(RaycastButton button) {
 		Vector3 pos = _cursor.anchoredPosition + _halfBounds;
 		if (pos.x > button.RectTransform.anchoredPosition.x && pos.x < button.RectTransform.anchoredPosition.x + button.RectTransform.sizeDelta.x) {
 			if (pos.y > button.RectTransform.anchoredPosition.y && pos.y < button.RectTransform.anchoredPosition.y + button.RectTransform.sizeDelta.y) {
@@ -235,14 +265,17 @@ public class KeyboardMenu : Menu {
 	private void StopCurrentHover() {
 		_currentHoveredButton?.SetHover(false);
 		_currentHoveredButton = null;
-	}
+	} 
+
+	
 
 
 
-	private void CalculateClick() {
+	public void CalculateClick() {
 		if (_currentHoveredButton == null)
 			return;
 
+		Debug.Log("Keyboard Clicked");
 		_currentHoveredButton.FlickDown();
 
 		if (_currentHoveredButton == _shiftButton) {
@@ -290,7 +323,7 @@ public class KeyboardMenu : Menu {
 
 
 	private void EV_InteractDown(bool isLeftHand) {
-		if ((isLeftHand && !Player.Singleton.IsLeftHanded) || (!isLeftHand && Player.Singleton.IsLeftHanded))
+		//if ((isLeftHand && !Player.Singleton.IsLeftHanded) || (!isLeftHand && Player.Singleton.IsLeftHanded))
 			return;
 
 		CalculateClick();

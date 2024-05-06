@@ -24,8 +24,6 @@ public class NameConfirmationMenu : InteractionBase {
 	public static NameConfirmationMenu Singeton { get; private set; }
 	//Event Variables
 	public static EasyEvent RequestEvent = new EasyEvent("ScoreDoneMenu Request");
-	private RectTransform _rectTransform;
-	private Vector2 _halfBounds;
 	#endregion
 
 
@@ -79,13 +77,14 @@ public class NameConfirmationMenu : InteractionBase {
 		_button.ButtonUpEvent.Subscribe(this, EV_Button);
 		_buttonNo.ButtonUpEvent.Subscribe(this, EV_Button_No);
 		_buttonYes.ButtonUpEvent.Subscribe(this, EV_Button_Yes);
-		PlayerInput.InteractInputUpEvent.Subscribe(this, EV_InteractDown);
-		KeyboardMenu.Enable(true);
+	//	PlayerInput.InteractInputUpEvent.Subscribe(this, EV_InteractDown);
+	
 		Enable(null);
 		_rectTransform = transform as RectTransform;
 		_halfBounds = new Vector2(_rectTransform.sizeDelta.x / 2, _rectTransform.sizeDelta.y / -2);
-	
-	}
+        KeyboardMenu.Enable(true);
+
+    }
 
 
 
@@ -132,7 +131,7 @@ public class NameConfirmationMenu : InteractionBase {
 	{
 		Debug.Log("Button INterat");
 		currentPhysicalButton.MainTrigger.Interact();
-		if ((isLeftHand && !Player.Singleton.IsLeftHanded) || (!isLeftHand && Player.Singleton.IsLeftHanded))
+	//	if ((isLeftHand && !Player.Singleton.IsLeftHanded) || (!isLeftHand && Player.Singleton.IsLeftHanded))
 			return;
 
 		//currentPhysicalButton.MainTrigger.Interact();
@@ -197,7 +196,7 @@ public class NameConfirmationMenu : InteractionBase {
 
 
 
-	private void EV_Button() {
+	public void EV_Button() {
 		if (!gameObject.activeSelf)
 			return;
 		Disable();
@@ -207,7 +206,7 @@ public class NameConfirmationMenu : InteractionBase {
 
 
 
-	private void EV_Button_No() {
+	public void EV_Button_No() {
 		if (!gameObject.activeSelf)
 			return;
 		Disable();
@@ -217,7 +216,7 @@ public class NameConfirmationMenu : InteractionBase {
 
 
 
-	private void EV_Button_Yes() {
+	public void EV_Button_Yes() {
 		if (!gameObject.activeSelf)
 			return;
 			

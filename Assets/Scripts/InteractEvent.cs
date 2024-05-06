@@ -30,8 +30,8 @@ public class InteractEvent : MonoBehaviour
     void Start()
     {
 		//Subscribe to input events
-        PlayerInput.InteractInputDownEvent.Subscribe(this, InteractEV_Down);
-		PlayerInput.InteractInputUpEvent.Subscribe(this, InteractEV_Up);
+        //PlayerInput.InteractInputDownEvent.Subscribe(this, InteractEV_Down);
+		//PlayerInput.InteractInputUpEvent.Subscribe(this, InteractEV_Up);
 
 		_startLinePosition = new Vector3[2] {Vector3.zero, Vector3.zero};
 		RaycastLine = GetComponent<LineRenderer>();

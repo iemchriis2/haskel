@@ -15,6 +15,7 @@ using UnityEngine;
 /// </summary>
 public class Player : MonoBehaviour {
 
+	
 	#region Static
 
 	#region Variables
@@ -74,7 +75,7 @@ public class Player : MonoBehaviour {
 	private bool _isInteractDown, _isInteractLeft;
 	private bool _canTeleport = true;
 	private bool _isTeleportDown, _isTeleportLeft;
-	private HazardObject _hoveredHazardObject;
+	[SerializeField]private HazardObject _hoveredHazardObject;
 	private List<PhysicalTriggerInteract> _leftHandOpacityInteractions = new List<PhysicalTriggerInteract>();
 	private List<PhysicalTriggerInteract> _rightHandOpacityInteractions = new List<PhysicalTriggerInteract>();
 	private float _leftHandAlphaValue, _rightHandAlphaValue;
@@ -96,12 +97,13 @@ public class Player : MonoBehaviour {
 
 
 	private void Start() {
-		PlayerInput.TeleportInputDownEvent.Subscribe(this, EV_TeleportDown);
-		PlayerInput.TeleportInputUpEvent.Subscribe(this, EV_TeleportUp);
-		PlayerInput.SnapRotationEvent.Subscribe(this, EV_SnapRotation);
-		PlayerInput.InteractInputDownEvent.Subscribe(this, EV_InteractDown);
-		PlayerInput.InteractInputUpEvent.Subscribe(this, EV_InteractUp);
-		PlayerInput.ReturnHomeInputDownEvent.Subscribe(this, EV_ReturnHomeDown);
+		
+		//PlayerInput.TeleportInputDownEvent.Subscribe(this, EV_TeleportDown);
+		//PlayerInput.TeleportInputUpEvent.Subscribe(this, EV_TeleportUp);
+		//PlayerInput.SnapRotationEvent.Subscribe(this, EV_SnapRotation);
+		//PlayerInput.InteractInputDownEvent.Subscribe(this, EV_InteractDown);
+		//PlayerInput.InteractInputUpEvent.Subscribe(this, EV_InteractUp);
+		//PlayerInput.ReturnHomeInputDownEvent.Subscribe(this, EV_ReturnHomeDown);
 		MainMenu.GameStartEvent.Subscribe(this, EV_GameStart);
 		EndMenu.GameEndEvent.Subscribe(this, EV_GameEnd);
 		Tutorial.StartEvent.Subscribe(this, EV_TutorialStart);
@@ -110,10 +112,12 @@ public class Player : MonoBehaviour {
 		ScoreDoneMenu.RequestEvent.Subscribe(this, EV_DoneLookingAtScoreOutput);
 		NameConfirmationMenu.RequestEvent.Subscribe(this, EV_DoneLookingAtScoreOutput);
 		KeyboardMenu.EnableDisableEvent.Subscribe(this, EV_KeyboardEnableDisable);
+		/*
 		_leftHandTransform.GetComponent<PhysicalTriggerInteractor>().ActionEvent.Subscribe(this, EV_LeftHandAction);
 		_leftHandTransform.GetComponent<PhysicalTriggerInteractor>().UnactionEvent.Subscribe(this, EV_LeftHandUnaction);
 		_rightHandTransform.GetComponent<PhysicalTriggerInteractor>().ActionEvent.Subscribe(this, EV_RightHandAction);
 		_rightHandTransform.GetComponent<PhysicalTriggerInteractor>().UnactionEvent.Subscribe(this, EV_RightHandUnaction);
+		*/
 		ReturnHomeConfirmationMenu.ReturnHomeRequestEvent.Subscribe(this, EV_RequestHome);
 	}
 
@@ -143,7 +147,7 @@ public class Player : MonoBehaviour {
 			HandOpacityUpdate();
 
 		//Raycast keyboard helper
-		KeyboardMenuUpdate();
+	//	KeyboardMenuUpdate();
 	}
 
 	#endregion
@@ -175,6 +179,11 @@ public class Player : MonoBehaviour {
 		if (_hoveredHazardObject != null)
 			InteractEvent.Invoke(_hoveredHazardObject);
 	}
+
+	public void HoverHazard(HazardObject hazard)
+	{
+		_hoveredHazardObject = hazard;
+    }
 
 
 
@@ -511,5 +520,5 @@ public class Player : MonoBehaviour {
 	#endregion
 
 	#endregion
-
+	
 }

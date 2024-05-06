@@ -2,9 +2,11 @@
 
 #pragma warning disable 0649
 
+using JetBrains.Annotations;
 using System.Collections.Generic;
 
 using UnityEngine;
+//using static UnityEngine.Rendering.DynamicArray<T>;
 
 
 
@@ -132,8 +134,29 @@ public class PhysicalTriggerInteract : MonoBehaviour {
 		}
 	}
 
+	public void Action()
+	{
+		if (!_isInteracting)
+		{
+			_isInteracting = true;
+			InteractionStartEvent.Invoke();
+		}
+	}
 
-
+	public void UnAction()
+	{
+	
+        if (_isInteractable)
+        {
+            if (_isInteracting)
+            {
+                Debug.Log("Unaction");
+                _isInteracting = false;
+                InteractionEndEvent.Invoke();
+            }
+        }
+    }
+	
 	public virtual void Unaction(PhysicalTriggerInteractor interactor) {
 		_interactors.Remove(interactor);
 		if (_isInteractable) {

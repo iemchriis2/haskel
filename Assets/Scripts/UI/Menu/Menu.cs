@@ -13,7 +13,7 @@ using UnityEngine;
 public class Menu : MonoBehaviour {
 
 	protected virtual void Start() {
-		GetComponent<Canvas>().worldCamera = Player.Singleton.HeadTransform.GetComponent<Camera>();
+		//GetComponent<Canvas>().worldCamera = Player.Singleton.HeadTransform.GetComponent<Camera>();
 	}
 
 }

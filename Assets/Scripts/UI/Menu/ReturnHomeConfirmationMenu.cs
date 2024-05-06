@@ -82,7 +82,7 @@ public class ReturnHomeConfirmationMenu : Menu {
 		_noButton.ButtonUpEvent.Subscribe(this, EV_NoButtonUp);
 		_yesButton.ButtonDownEvent.Subscribe(this, EV_YesButtonDown);
 		_yesButton.ButtonUpEvent.Subscribe(this, EV_YesButtonUp);
-		Player.TeleportEvent.Subscribe(this, EV_Teleport);
+		//Player.TeleportEvent.Subscribe(this, EV_Teleport);
 
 		_audioData = GetComponent<AudioSource>();
 
@@ -120,15 +120,15 @@ public class ReturnHomeConfirmationMenu : Menu {
 		gameObject.SetActive(true);
 
 		//Calculate points
-		Vector3 additive = Player.Singleton.HeadTransform.forward;
-		additive = new Vector3(additive.x, 0, additive.z).normalized * _horizontalOffset;
-		additive += new Vector3(0, _verticalOffset, 0);
-		_posB = Player.Singleton.HeadTransform.position + additive;
+		//Vector3 additive = Player.Singleton.HeadTransform.forward;
+		//additive = new Vector3(additive.x, 0, additive.z).normalized * _horizontalOffset;
+		//additive += new Vector3(0, _verticalOffset, 0);
+		//_posB = Player.Singleton.HeadTransform.position + additive;
 		_posA = _posB + Vector3.up * _translationStartOffset;
 		
 		//LookAt
 		transform.position = _posB;
-		Vector3 difference = transform.position - Player.Singleton.HeadTransform.position;
+		Vector3 difference = transform.position;//- Player.Singleton.HeadTransform.position;
 		transform.LookAt(transform.position + difference);
 
 		//Set at starting point

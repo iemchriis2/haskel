@@ -178,7 +178,7 @@ public class FancyButton : MonoBehaviour {
 
 	#region Event Callbacks
 
-	private void EV_Down() {
+	public void EV_Down() {
 		StateChangeCalculations();
 		_isDown = true;
 
@@ -189,8 +189,8 @@ public class FancyButton : MonoBehaviour {
 			_graphicImage.color = GetColorLerpTarget();
 		}
 
-		OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.RTouch);
-		OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.LTouch);
+		//OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.RTouch);
+		//OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.LTouch);
 	}
 
 
@@ -198,8 +198,8 @@ public class FancyButton : MonoBehaviour {
 	public void EV_Up() {
 		StateChangeCalculations();
 		_isDown = false;
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
+		//OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+		//OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
 	}
 
 
@@ -215,6 +215,13 @@ public class FancyButton : MonoBehaviour {
 		StateChangeCalculations();
 		_isHover = false;
 	}
+
+	public GameObject GetGraphicImage()
+	{
+		return _graphicImage.gameObject;
+
+    }
+
 
 	#endregion
 	

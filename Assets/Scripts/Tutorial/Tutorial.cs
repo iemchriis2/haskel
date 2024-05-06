@@ -109,10 +109,12 @@ public class Tutorial : MonoBehaviour {
 
 
 	private void Start() {
+		/*
 		Player.InteractEvent.Subscribe(this, EV_Interact);
 		AnswerMenu.CategorySelectedEvent.Subscribe(this, EV_AnswerMenuCategorySelected);
 		AnswerMenu.DisabledEvent.Subscribe(this, EV_AnswerMenuDisable);
 		Player.TeleportEvent.Subscribe(this, EV_Teleport);
+		*/
 		EndMenu.GameEndEvent.Subscribe(this, EV_GameEnd);
 
 		Disable();

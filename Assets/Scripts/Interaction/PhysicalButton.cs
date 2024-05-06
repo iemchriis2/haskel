@@ -89,7 +89,7 @@ public class PhysicalButton : MonoBehaviour {
 
 
 
-	private void EV_MainTriggerEnd() {
+	public void EV_MainTriggerEnd() {
 		ButtonUpEvent.Invoke();
 	}
 

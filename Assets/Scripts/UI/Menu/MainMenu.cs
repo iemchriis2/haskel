@@ -89,7 +89,7 @@ public class MainMenu : Menu {
 
     #region Event Callbacks
 
-    private void EV_PlayButton(int index) {
+    public void EV_PlayButton(int index) {
 		StageIndex = index;
 		//StartCoroutine(LoadScene("Stage" + index, () => { GameStartEvent.Invoke(); }, index));
 		for (int i = 0; i < HazardVariations.Length; i++)
@@ -108,14 +108,14 @@ public class MainMenu : Menu {
 
 
 
-	private void EV_TutorialButton() {
+	public void EV_TutorialButton() {
 		//StartCoroutine(LoadScene("Tutorial", () => { Tutorial.StartTutorial(); }));
 		Tutorial.StartTutorial();
 	}
 
 
 
-	private void EV_GameEnd() {
+	public void EV_GameEnd() {
 		gameObject.SetActive(true);
 
 		//StartCoroutine(UnloadScene());
@@ -137,7 +137,7 @@ public class MainMenu : Menu {
 
 
 
-	private void EV_QuitButton() {
+	public void EV_QuitButton() {
 		Debug.LogWarning("quit");
 		Application.Quit();
 	}

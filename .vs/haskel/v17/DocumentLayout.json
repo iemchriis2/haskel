@@ -1,0 +1,511 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MadXR\\haskel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|d:\\madxr\\haskel\\assets\\scripts\\interaction\\physicaltriggerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\physicaltriggerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\menu\\keyboardmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\keyboardmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|d:\\madxr\\haskel\\assets\\scripts\\interaction\\physicaltriggerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\physicaltriggerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|d:\\madxr\\haskel\\assets\\scripts\\interaction\\physicalbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction\\physicalbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\extras\\fancybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\extras\\fancybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|d:\\madxr\\haskel\\assets\\scripts\\ui\\menu\\answermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\answermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\extras\\raycastbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\extras\\raycastbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\menu\\nameconfirmationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\nameconfirmationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|d:\\madxr\\haskel\\assets\\scripts\\events\\easyevent.t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\events\\easyevent.t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\base\\interactionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\interactionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\hazardobject\\hazardobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hazardobject\\hazardobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\extras\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\extras\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\player\\xrplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\xrplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\ui\\menu\\scoredonemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu\\scoredonemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\tutorial\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|D:\\MadXR\\haskel\\assets\\scripts\\interactevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9373D58F-5D48-03DD-D3C1-E7321F38B200}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Editor\\OVRLint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Editor\\OVRLint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\madxr\\haskel\\assets\\scripts\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\madxr\\haskel\\assets\\scripts\\player\\controllerinputtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\player\\controllerinputtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyboardMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\KeyboardMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\KeyboardMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\KeyboardMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\KeyboardMenu.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAWwOsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T13:21:07.639Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhysicalTriggerInteract.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalTriggerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PhysicalTriggerInteract.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalTriggerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PhysicalTriggerInteract.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAgwH4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:33:56.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhysicalTriggerInteractor.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalTriggerInteractor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PhysicalTriggerInteractor.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalTriggerInteractor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PhysicalTriggerInteractor.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:33:36.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhysicalButton.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction\\PhysicalButton.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Interaction\\PhysicalButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction\\PhysicalButton.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwFsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:00:05.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EasyEvent.T1.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Events\\EasyEvent.T1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Events\\EasyEvent.T1.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Events\\EasyEvent.T1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Events\\EasyEvent.T1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:19:05.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\MainMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\MainMenu.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T04:12:28.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "XRPlayer.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\XRPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\XRPlayer.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\XRPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\XRPlayer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:50:51.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "XRInputModalityManager.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Inputs\\XRInputModalityManager.cs",
+              "ViewState": "AQIAAE8CAAAAAAAAAAAwwHUCAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T01:23:00.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RaycastButton.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\RaycastButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Extras\\RaycastButton.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\RaycastButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Extras\\RaycastButton.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwGQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T13:17:25.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InteractionBase.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Base\\InteractionBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\InteractionBase.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Base\\InteractionBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Base\\InteractionBase.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:43:23.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnswerMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\AnswerMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\AnswerMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\AnswerMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\AnswerMenu.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwEMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:11:52.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HazardObject.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\HazardObject\\HazardObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HazardObject\\HazardObject.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\HazardObject\\HazardObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HazardObject\\HazardObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T02:54:17.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NameConfirmationMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\NameConfirmationMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\NameConfirmationMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\NameConfirmationMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\NameConfirmationMenu.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:16:06.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\Menu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:16:00.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FancyButton.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\FancyButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Extras\\FancyButton.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\FancyButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Extras\\FancyButton.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:10:39.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Fade.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\Fade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Extras\\Fade.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Extras\\Fade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Extras\\Fade.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T04:32:42.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tutorial.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Tutorial\\Tutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Tutorial.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Tutorial\\Tutorial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Tutorial.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:14:46.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowE0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:14:21.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScoreDoneMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\ScoreDoneMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu\\ScoreDoneMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\UI\\Menu\\ScoreDoneMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu\\ScoreDoneMenu.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAArwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:47:47.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InteractEvent.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\InteractEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractEvent.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\InteractEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:09:34.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInput.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\PlayerInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInput.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwDwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:08:34.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ControllerInputTest.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\ControllerInputTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\ControllerInputTest.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Scripts\\Player\\ControllerInputTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\ControllerInputTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:07:46.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OVRCommon.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRCommon.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:04:32.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LocomotionTeleport.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs",
+              "RelativeToolTip": "Assets\\Oculus\\SampleFramework\\Core\\Locomotion\\Scripts\\LocomotionTeleport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:29:37.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OVRLint.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Editor\\OVRLint.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Editor\\OVRLint.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Editor\\OVRLint.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Editor\\OVRLint.cs",
+              "ViewState": "AQIAAEsDAAAAAAAAAAAQwGQDAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:29:16.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OVRDebugHeadController.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRDebugHeadController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwGEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:27:38.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OVRTracker.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:18:35.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OVRProfile.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:18:29.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OVRPlatformMenu.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRPlatformMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:18:25.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OVRBoundary.cs",
+              "DocumentMoniker": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs",
+              "ToolTip": "D:\\MadXR\\haskel\\Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRBoundary.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAwMwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:17:46.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

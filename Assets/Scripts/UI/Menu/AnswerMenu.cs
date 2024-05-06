@@ -16,6 +16,7 @@ using TMPro;
 /// </summary>
 public class AnswerMenu : Menu {
 
+	
 	#region Static
 
 	#region Variables
@@ -148,7 +149,6 @@ public class AnswerMenu : Menu {
 	private void E() {
 		IsEnabled = true;
 		gameObject.SetActive(true);
-
 		//Calculate points
 		Vector3 additive = Player.Singleton.HeadTransform.forward;
 		additive = new Vector3(additive.x, 0, additive.z).normalized * _horizontalOffset;
@@ -222,15 +222,21 @@ public class AnswerMenu : Menu {
 		E();
 	}
 
+	public void InteractHazard(HazardObject hazardObject)
+	{
+		_hazardObject = hazardObject;
+        E();
+    }
+
 
 
 	private void EV_Teleport() {
 		D(false);
 	}
 
+  
 
-
-	private void EV_CategoryButtonDown(int index) {
+	public void EV_CategoryButtonDown(int index) {
 		_categoryButtonsIsDown[index] = true;
 		_audioData.Play();
 		//OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.RTouch);
@@ -242,12 +248,12 @@ public class AnswerMenu : Menu {
 	
 	
 	
-	private void EV_CategoryButtonUp(int index) {
+	public void EV_CategoryButtonUp(int index) {
 		CalculateStuckButton();
 		_categoryButtonsIsDown[index] = false;
 		//_audioData.Play();
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
+		//OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+	//	OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
 		CategorySelectedEvent.Invoke();
 	}
 
@@ -263,8 +269,8 @@ public class AnswerMenu : Menu {
 		if (_smoothDampEval < _confirmCooldownThreshold)
 			_confirmCooldown = true;
 		_audioData.Play();
-		OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.RTouch);
-		OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.LTouch);
+		//OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.RTouch);
+		//OVRInput.SetControllerVibration(.75f, .75f, OVRInput.Controller.LTouch);
 	}
 
 
@@ -284,8 +290,8 @@ public class AnswerMenu : Menu {
 		}
 		_hazardObject = null;//Set null so it cannot be reactivated when the menu is in the disable transition
 		//_audioData.Play();
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
-		OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
+		//OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+		//OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
 
 		D(true);
 	}
@@ -314,9 +320,9 @@ public class AnswerMenu : Menu {
 		_categoryButtons[onlyDown].SetStuckState(true);
 		_selectedCategory = onlyDown;
 	}
+	
+    #endregion
 
-	#endregion
-
-	#endregion
-
+    #endregion
+	
 }

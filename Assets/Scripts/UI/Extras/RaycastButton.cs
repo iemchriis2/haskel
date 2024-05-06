@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
-
+using UnityEngine.EventSystems;
 using TMPro;
 
 
@@ -81,19 +81,52 @@ public class RaycastButton : MonoBehaviour {
 		Render();
 	}
 
+	public void AddEventTriggers()
+	{
+        EventTrigger eventTrigger = GetComponent<FancyButton>().GetGraphicImage().GetComponent<EventTrigger>();
+
+        if (eventTrigger == null)
+        {
+            eventTrigger = GetComponent<FancyButton>().GetGraphicImage().AddComponent<EventTrigger>();
+        }
+
+        EventTrigger.Entry entry = new EventTrigger.Entry();
+        entry.eventID = EventTriggerType.PointerEnter;
+        entry.callback.AddListener((data) => { OnPointerEnterDelegate((PointerEventData)data); });
+        eventTrigger.triggers.Add(entry);
+
+        EventTrigger.Entry entry2 = new EventTrigger.Entry();
+        entry2.eventID = EventTriggerType.PointerExit;
+        entry2.callback.AddListener((data) => { OnPointerExitDelegate((PointerEventData)data); });
+        eventTrigger.triggers.Add(entry2);
 
 
-	// private void Update() {
-		
-	// }
-
-	#endregion
 
 
+    }
 
-	#region Render
+    void OnPointerEnterDelegate(PointerEventData data)
+    {
+		KeyboardMenu.Singleton.SelectHoverButton(GetComponent<RaycastButton>());
+    }
 
-	private void Render() {
+
+	void OnPointerExitDelegate(PointerEventData data)
+	{
+        KeyboardMenu.Singleton.RemoveHoverButton();
+    }
+
+    // private void Update() {
+
+    // }
+
+    #endregion
+
+
+
+    #region Render
+
+    private void Render() {
 		SubState s = _isShift ? _states[_stateIndex].ShiftState : _states[_stateIndex].DefaultState;
 		_text.text = s.HasDifferentRender ? s.RenderString : s.Char.ToString();
 	}
@@ -115,6 +148,7 @@ public class RaycastButton : MonoBehaviour {
 	public void FlickDown() {
 		ButtonDownEvent.Invoke();
 		ButtonUpEvent.Invoke();
+
 	}
 
 

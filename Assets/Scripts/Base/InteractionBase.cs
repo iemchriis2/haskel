@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Security.Policy;
+//using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +12,8 @@ public class InteractionBase : MonoBehaviour
 
     //Script Variables
     public PhysicalButton currentPhysicalButton;
-    private RectTransform _rectTransform;
-    private Vector2 _halfBounds;
+    public RectTransform _rectTransform;
+    public Vector2 _halfBounds;
 
 
 
